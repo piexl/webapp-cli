@@ -16,7 +16,7 @@ function initProj(name){
 	    var projPath = __root + '/' + name;
 	    if(!fs.existsSync(projPath)){
 	    	console.log('模板下载中，请耐心等待……');
-	      	download('piexl/webapp-cli', __root+ '/' + name, function(err) {
+	      	download('piexl/tplPc', __root+ '/' + name, function(err) {
 	        	console.log(err ? err : '项目创建成功');
 		        //创建成功以后，进入项目目录
 	      });
