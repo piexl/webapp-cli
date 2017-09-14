@@ -1,0 +1,28 @@
+{
+  "name": "pixel-webapp-cli",
+  "version": "0.0.3",
+  "description": "a webapp creat cli",
+  "main": "index.js",
+  "bin": {
+    "webapp-cli": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piexl/webapp-cli.git"
+  },
+  "author": "kermityu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/piexl/webapp-cli/issues"
+  },
+  "homepage": "https://github.com/piexl/webapp-cli#readme",
+  "devDependencies": {
+    "commander": "^2.11.0",
+    "download-git-repo": "^1.0.1",
+    "mkdirp": "^0.5.1"
+  },
+  "dependencies": {}
+}
