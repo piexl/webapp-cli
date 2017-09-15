@@ -9,7 +9,7 @@ const mkdirp = require('mkdirp');
 const download = require('download-git-repo');
 
 function initProj(name){
-	if(name === undefined){
+	if(name === undefined || name === true){
 		console.log('使用 webapp-cli -i <projectname> 初始化项目');
 		return;
 	}
@@ -29,6 +29,7 @@ function initProj(name){
 }
 
 program
+	.version('0.0.9')
 	.usage('[options] <file ...>')
 	.option('-i, --init [value]', '创建初始项目')
 	.parse(process.argv);

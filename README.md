@@ -1,10 +1,13 @@
 # webapp-cli
-一个为构建响应式webapp的构建工具。构建克隆项目[https://github.com/piexl/webapp-cli.git](https://github.com/piexl/webapp-cli.git)
+一个为构建响应式webapp的构建工具。构建响应网站模板[https://github.com/piexl/tplPc.git](https://github.com/piexl/tplPc.git)
 
-##安装插件
+###安装插件
+```python
+npm install pixel-webapp-cli
+```
 
-`npm install pixel-webapp-cli`
+###初始化项目
 
-##初始化项目
-
-`webapp-cli -i <projectname>`
+```python
+webapp-cli -i <projectname>
+```
