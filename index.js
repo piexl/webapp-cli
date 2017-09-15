@@ -9,8 +9,10 @@ const mkdirp = require('mkdirp');
 const download = require('download-git-repo');
 
 function initProj(name){
-	console.log('name',name)
-	if(name === undefined) return;
+	if(name === undefined){
+		console.log('使用 webapp-cli -i <projectname> 初始化项目');
+		return;
+	}
 	else{
 		console.log('准备创建项目: ' + name );
 	    var projPath = __root + '/' + name;

@@ -1,6 +1,6 @@
 {
   "name": "pixel-webapp-cli",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "a webapp creat cli",
   "main": "index.js",
   "bin": {
@@ -19,10 +19,9 @@
     "url": "https://github.com/piexl/webapp-cli/issues"
   },
   "homepage": "https://github.com/piexl/webapp-cli#readme",
-  "devDependencies": {
+  "dependencies": {
     "commander": "^2.11.0",
     "download-git-repo": "^1.0.1",
     "mkdirp": "^0.5.1"
-  },
-  "dependencies": {}
+  }
 }
