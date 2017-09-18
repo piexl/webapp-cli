@@ -60,3 +60,6 @@ typings/
 
 #markEditor
 .Archive
+
+#mac
+.DS_Store
